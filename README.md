@@ -47,6 +47,10 @@ include node_modules/react-fatigue-webpack/Makefile
 - webpack
 - webpack-dev-server
 
+## Links
+
+- [Example project](https://github.com/oieduardorabelo/react-fatigue-webpack-example) using react-fatigue-webpack
+
 ## Badges
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
