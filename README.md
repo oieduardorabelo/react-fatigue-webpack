@@ -9,7 +9,7 @@ Module of modules and Makefile to reduce the amount of boilerplate when developi
 ## Installation
 
 ```
-$ npm install oieduardorabelo/react-fatigue-webpack
+$ npm install -D oieduardorabelo/react-fatigue-webpack
 ```
 
 ## Usage
