@@ -8,6 +8,10 @@
   ],
   "author": "Eduardo Rabelo <oieduardorabelo@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oieduardorabelo/react-fatigue-webpack.git"
+  }
   "dependencies": {
     "babel-cli": "^6.6",
     "babel-core": "^6.6.5",
