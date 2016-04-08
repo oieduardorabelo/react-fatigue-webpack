@@ -1,7 +1,7 @@
 BIN_DIR ?= node_modules/.bin
 BUILD_DIR ?= build
 
-WBP_LOADERS ?= --module-bind 'js=babel-loader' --module-bind 'css=style-loader!css-loader'
+WBP_LOADERS ?= --module-bind 'js=babel-loader' --module-bind 'css=style-loader!css-loader' --module-bind 'jpg|jpeg|gif|png|ico=url-loader?limit=10000'
 WBP_PATH ?= --content-base example
 WBP_PORT ?= --port 3000
 WBP_FLAGS ?= --progress --hot --inline --output-public-path /
