@@ -41,9 +41,11 @@ include node_modules/react-fatigue-webpack/Makefile
 - babel-preset-react
 - babel-preset-stage-0
 - css-loader
+- file-loader
 - react
 - react-dom
 - style-loader
+- url-loader
 - webpack
 - webpack-dev-server
 
