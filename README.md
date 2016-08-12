@@ -49,6 +49,14 @@ include node_modules/react-fatigue-webpack/Makefile
 - webpack
 - webpack-dev-server
 
+## Running without react-fatigue-webpack
+
+You can also install all dependencies right in your project:
+
+```
+npm install -D babel-cli babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0 css-loader file-loader react react-dom style-loader url-loader webpack webpack-dev-server
+```
+
 ## Links
 
 - [Example project](https://github.com/oieduardorabelo/react-fatigue-webpack-example) using react-fatigue-webpack
