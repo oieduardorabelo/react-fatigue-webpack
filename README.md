@@ -57,6 +57,16 @@ You can also install all dependencies right in your project:
 npm install -D babel-cli babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0 css-loader file-loader react react-dom style-loader url-loader webpack webpack-dev-server
 ```
 
+## .babelrc
+
+Example babelrc:
+
+```
+{
+  "presets": ["es2015", "stage-0", "react"]
+}
+```
+
 ## Links
 
 - [Example project](https://github.com/oieduardorabelo/react-fatigue-webpack-example) using react-fatigue-webpack
