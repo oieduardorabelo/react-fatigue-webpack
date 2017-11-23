@@ -37,9 +37,8 @@ include node_modules/react-fatigue-webpack/Makefile
 - babel-cli
 - babel-core
 - babel-loader
-- babel-preset-es2015
+- babel-preset-env
 - babel-preset-react
-- babel-preset-stage-0
 - css-loader
 - file-loader
 - react
@@ -54,7 +53,7 @@ include node_modules/react-fatigue-webpack/Makefile
 You can also install all dependencies right in your project:
 
 ```
-npm install -D babel-cli babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-stage-0 css-loader file-loader react react-dom style-loader url-loader webpack webpack-dev-server
+npm install -D babel-cli babel-core babel-loader babel-preset-react babel-preset-env css-loader file-loader react react-dom style-loader url-loader webpack webpack-dev-server
 ```
 
 ## .babelrc
@@ -63,7 +62,7 @@ Example babelrc:
 
 ```
 {
-  "presets": ["es2015", "stage-0", "react"]
+  "presets": ["env", "react"]
 }
 ```
 
